@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absurd Design - Sign Up</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <nav
+      class="flex justify-between px-5 py-[15px] z-10 text-[#202020]/[0.9] bg-white fixed top-0 left-0 w-screen"
+    >
+      <div class="left pl-3 w-14">
+        <a href="/"><img src="src/logo.png" alt="logo" class="hover:invert-[.2]" /></a>
+      </div>
+      <div class="right flex">
+        <ul
+          class="flex space-x-12 pr-12 self-center font-[700] text-xs text-gray-600 tracking-wider"
+        >
+          <li>
+            <a href="/" class="cursor-pointer">BACK TO ILLUSTRATIONS SERIES</a>
+          </li>
+          <li><a href="/about.html" class="cursor-pointer">ABOUT</a></li>
+          <li><a href="/signIn.html" class="cursor-pointer">SIGN IN</a></li>
+          <li><a href="/signUp.html" class="cursor-pointer">SIGN UP</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="containe z-0 absolute top-0 left-0">
+      <main class="main p-0 m-0">
+        <section class="slide-1">
+          <div class="wrap p-28 pl-44 pr-44 w-screen flex justify-center">
+            <div class="fix w-screen flex-col justify-center text-center">
+              <h1 class="text-[42px]">Sign Up</h1>
+              <div class="mt-5">
+                <p class="text-[22px] text-gray-900">
+                  Create an account and discover a new world.
+                </p>
+              </div>
+              <div class="mt-20 w-[37%] m-auto">
+                <div class="p-12 shadow-2xl">
+                  <form action="/" method="post">
+                    <div name="name" class="text-left mt-2">
+                      <div>
+                        <label
+                          for="userName"
+                          class="text-gray-500 text-sm font-light"
+                          >Your Name</label
+                        >
+                      </div>
+                      <input
+                        type="text"
+                        placeholder="Name"
+                        id="userName"
+                        class="p-3 w-full border mt-1"
+                      />
+                    </div>
+                    <div name="email" class="text-left mt-2">
+                      <div>
+                        <label
+                          for="userEmail"
+                          class="text-gray-500 text-sm font-light"
+                          >Email Address</label
+                        >
+                      </div>
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        id="userEmail"
+                        class="p-3 w-full border mt-1"
+                      />
+                    </div>
+                    <div name="password" class="text-left mt-2">
+                      <div>
+                        <label
+                          for="userPassword"
+                          class="text-gray-500 text-sm font-light"
+                          >Password</label
+                        >
+                      </div>
+                      <input
+                        type="password"
+                        placeholder="Password"
+                        id="userPassword"
+                        name="password"
+                        class="p-3 w-full border mt-1"
+                      />
+                    </div>
+                    <div name="rePassword" class="text-left mt-2">
+                      <div>
+                        <label
+                          for="userRePassword"
+                          class="text-gray-500 text-sm font-light"
+                          >Password</label
+                        >
+                      </div>
+                      <input
+                        type="password"
+                        placeholder="Repeat Password"
+                        id="userRePassword"
+                        name="rePassword"
+                        class="p-3 w-full border mt-1"
+                      />
+                    </div>
+                    <div name="checkbox w-full">
+                      <label
+                        class="relative inline-flex mb-5 cursor-pointer float-left mt-4"
+                      >
+                        <input type="checkbox" value="" class="sr-only peer" />
+                        <div
+                          class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-300 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+                        ></div>
+                        <span
+                          class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-600"
+                          >I accept Privacy Policy and Terms.</span
+                        >
+                      </label>
+                    </div>
+                    <button
+                      class="py-3 px-5 bg-black font-bold text-white rounded border-black shadow-md w-full relative hover:bottom-1 hover:shadow-2xl hover:duration-1000 duration-1000"
+                      type="submit"
+                    >
+                      Sign Up
+                    </button>
+                  </form>
+                </div>
+                <p class="mt-10 font-semibold text-gray-600 text-lg">
+                  <a href="/signIn.html">Sign In</a>
+                  <span class="text-gray-500 font-thin"> or </span>
+                  <a href="/resetPassword.html">Reset Password</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide-9">
+          <div class="w-screen h-screen">
+            <div class="p-32 flex justify-center items-center h-screen">
+              <div
+                class="m-auto ml-40 mr-40 text-center flex-col justify-center"
+              >
+                <h1 class="text-6xl">any absurd suggestions?</h1>
+                <ul class="grid grid-cols-3 mt-16">
+                  <li>
+                    <h6 class="text-sm text-gray-400">HQ</h6>
+                    <p class="mt-4">Barcelona, Spain.</p>
+                  </li>
+                  <li>
+                    <div>
+                      <h6 class="text-sm text-gray-400">EMAIL</h6>
+                      <p class="mt-4">xyz@absurd.design</p>
+                    </div>
+                    <div>
+                      <h6 class="text-sm text-gray-400 mt-5 mb-5">
+                        DON'T FOLLOW ME hover:w-6 hover:duration-200 duration-200
+                      </h6>
+                      <ul class="grid grid-cols-5 pl-14 pr-14 items-center">
+                        <li>
+                          <img src="src/be.svg" alt="Be" class="w-5 m-auto hover:w-6 hover:duration-200 duration-200" />
+                        </li>
+                        <li>
+                          <img
+                            src="src/ball.svg"
+                            alt="Ball"
+                            class="w-5 m-auto hover:w-6 hover:duration-200 duration-200"
+                          />
+                        </li>
+                        <li>
+                          <img src="src/x.svg" alt="X" class="w-5 m-auto hover:w-6 hover:duration-200 duration-200" />
+                        </li>
+                        <li>
+                          <img
+                            src="src/instagram.svg"
+                            alt="Instagram"
+                            class="w-5 m-auto hover:w-6 hover:duration-200 duration-200"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="src/facebook.svg"
+                            alt="Facebook"
+                            class="w-5 m-auto hover:w-6 hover:duration-200 duration-200"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <h6 class="text-sm text-gray-400">INFO</h6>
+                    <p class="mt-4">About, License, Terms and Privacy.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <h2 class="text-center mb-2">
+          Copyright © 2024 krish.design.All rights reserved.
+        </h2>
+      </footer>
+      <div class="side-navigation"></div>
+    </div>
+  </body>
+</html>

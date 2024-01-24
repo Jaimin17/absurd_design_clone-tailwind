@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absurd Design - Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <nav
+      class="flex justify-between px-5 py-[15px] z-10 text-[#202020]/[0.9] bg-white fixed top-0 left-0 w-screen"
+    >
+      <div class="left pl-3 w-14">
+        <a href="/"><img src="src/logo.png" alt="logo"  class="hover:invert-[.2]" /></a>
+      </div>
+      <div class="right flex">
+        <ul
+          class="flex space-x-12 pr-12 self-center font-[700] text-xs text-gray-600 tracking-wider"
+        >
+          <li><a href="/" class="cursor-pointer">ILLUSTRATIONS SERIES</a></li>
+          <li><a href="/about.html" class="cursor-pointer">ABOUT</a></li>
+          <li><a href="/signIn.html" class="cursor-pointer">SIGN IN</a></li>
+          <li><a href="/signUp.html" class="cursor-pointer">SIGN UP</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="containe z-0 absolute top-0 left-0">
+      <main class="main p-0 m-0">
+        <section class="slide-1">
+          <div class="wrap p-28 w-screen h-screen flex justify-center">
+            <div class="fix max-w-[1220px] flex">
+              <div class="content w-auto flex items-center">
+                <div class="max-w-[651px] px-3 flex-col">
+                  <h1 class="font-[400] text-6xl w-auto tracking-tight mb-6">
+                    absurd illustrations that make sense
+                  </h1>
+                  <p
+                    class="text-2xl text-[#3f3f3f] font-normal px-2 tracking-tight"
+                  >
+                    What about absurd illustrations for your projects? Take
+                    every user on an individual journey through their own
+                    imagination.
+                  </p>
+                  <div class="btns">
+                    <button
+                      class="py-3 px-5 bg-black font-bold text-white rounded relative hover:bottom-1 border-black mx-2 mt-8 shadow-md hover:shadow-2xl hover:duration-1000 duration-1000"
+                    >
+                      Become a Member
+                    </button>
+                    <button
+                      class="py-3 px-5 bg-white text-black rounded border-black/5 border-2 mx mt-8 shadow-md relative hover:bottom-1 hover:shadow-2xl hover:duration-1000 duration-1000"
+                    >
+                      Subscribe to Newsletter
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="images w-auto flex items-center">
+                <img src="src/slide-1-img.jpg" alt="art-1" class="h-full" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide-2">
+          <div class="wrap p-28 w-screen h-screen flex justify-center">
+            <div class="fix max-w-[1220px] flex">
+              <div class="images w-auto flex items-center">
+                <img src="src/slide-2-img.jpg" alt="art-1" class="h-5/6" />
+              </div>
+              <div class="content w-auto flex items-center">
+                <div class="max-w-[651px] pl-28 flex-col">
+                  <h1 class="font-[400] text-6xl w-auto tracking-tight mb-6">
+                    real beauty resides in imperfection
+                  </h1>
+                  <p
+                    class="text-xl text-[#4D4D4D] font-[400] pr-10 leading-9 tracking-wide"
+                  >
+                    In a digital era, we sometimes feel the need to interact
+                    with something more human that will make us appreciate both
+                    the beauty and the imperfection of something made by hand.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide-3">
+          <div class="wrap p-28 w-screen h-screen flex justify-center">
+            <div class="fix max-w-[1220px] flex">
+              <div class="content w-auto flex items-center">
+                <div class="max-w-[651px] pr-28 flex-col">
+                  <h1 class="font-[400] text-6xl w-auto tracking-tight mb-6">
+                    expressiveness is... the new black
+                  </h1>
+                  <p
+                    class="text-xl text-[#4D4D4D] font-[400] pr-10 leading-9 tracking-wide"
+                  >
+                    This series of illustrations paradoxically combines
+                    absurdity and a deep sense of childishness and naivety.
+                  </p>
+                </div>
+              </div>
+              <div class="images w-auto flex items-center">
+                <img src="src/slide-3-img.jpg" alt="art-1" class="h-5/6" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide-4">
+          <div class="container w-screen flex-col items-center p-28 m-auto">
+            <div
+              class="dynamicHeading flex-col text-center max-w-[1010px] m-auto"
+            >
+              <div
+                class="typing-container flex justify-center items-center text-6xl"
+              >
+                <span id="sentence" class="sentence pr-4"
+                  >illustrations for</span
+                >
+                <span id="feature-text"></span>
+                <span
+                  class="input-cursor inline-block w-1 h-14 mb-3 bg-black ml-2"
+                ></span>
+              </div>
+              <div class="para max-w-[1010px] mt-4">
+                <p class="text-2xl text-[#303030] indent-3">
+                  Welcome to my space for experiments! Look at this like a
+                  journey we can take together every step of the way, beginning
+                  another chapter with each new phase of the project
+                  development. And who knows where it will take us?
+                </p>
+              </div>
+            </div>
+            <div class="menu max-w-[1200px] m-auto mt-[6rem]">
+              <ul class="grid grid-cols-3" id="chapters"></ul>
+            </div>
+          </div>
+        </section>
+        <section class="slide-5">
+          <div class="container w-screen flex-col items-center p-28 m-auto">
+            <div
+              class="dynamicHeading flex-col text-center max-w-[1010px] m-auto"
+            >
+              <div class="flex justify-center items-center text-6xl">
+                examples of use
+              </div>
+              <div class="para max-w-[1010px] mt-10">
+                <p
+                  class="text-2xl text-[#303030] indent-3 max-w-[800px] m-auto"
+                >
+                  Each illustration offers the possibility of limitless
+                  interpretations and everyone can give it its own meaning. It
+                  depends only on each one's creativity and free spirit.
+                </p>
+              </div>
+            </div>
+            <div>
+              <ul class="mt-16 text-center">
+                <li>
+                  <div class="w-11/12 m-auto shadow-md">
+                    <img
+                      src="src/sliding-1.jpg"
+                      alt="sliding-1"
+                      id="sliding_img"
+                    />
+                  </div>
+                  <div id="sliding_text" class="mt-4">status.absurd.design</div>
+                </li>
+              </ul>
+              <ul class="flex justify-center space-x-4 mt-4">
+                <li>
+                  <button
+                    class="w-[6px] h-[6px] bg-gray-400 rounded-md bg-gray-900 w-[10px] h-[10px] mt-2"
+                    onclick="sliding(1);"
+                    id="sliding_1"
+                  ></button>
+                </li>
+                <li>
+                  <button
+                    class="w-[6px] h-[6px] bg-gray-400 rounded-md"
+                    onclick="sliding(2);"
+                    id="sliding_2"
+                  ></button>
+                </li>
+                <li>
+                  <button
+                    class="w-[6px] h-[6px] bg-gray-400 rounded-md"
+                    onclick="sliding(3);"
+                    id="sliding_3"
+                  ></button>
+                </li>
+                <li>
+                  <button
+                    class="w-[6px] h-[6px] bg-gray-400 rounded-md"
+                    onclick="sliding(4);"
+                    id="sliding_4"
+                  ></button>
+                </li>
+                <li>
+                  <button
+                    class="w-[6px] h-[6px] bg-gray-400 rounded-md"
+                    onclick="sliding(5);"
+                    id="sliding_5"
+                  ></button>
+                </li>
+              </ul>
+            </div>
+            <div class="m-auto mt-16">
+              <ul class="flex justify-center">
+                <li
+                  class="w-80 h-52 mx-3 rounded-md border-gray-200 border p-7 pt-10 hover:shadow-2xl duration-500 hover:duration-500"
+                >
+                  <div class="img">
+                    <img src="src/svg-1.svg" alt="svg-1" />
+                  </div>
+                  <div class="heading mt-4 mb-4">
+                    <h4 class="text-xl">illustrations</h4>
+                  </div>
+                  <div class="body">
+                    <p class="text-gray-500">
+                      High-Quality images with a transparent background.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="w-80 h-52 mx-3 rounded-md border-gray-200 border p-7 pt-10 hover:shadow-2xl duration-500 hover:duration-500"
+                >
+                  <div class="img">
+                    <img src="src/svg-2.svg" alt="svg-2" />
+                  </div>
+                  <div class="heading mt-4 mb-4">
+                    <h4 class="text-xl">imagination</h4>
+                  </div>
+                  <div class="body">
+                    <p class="text-gray-500">
+                      Created by human imagination, no AI detected.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="w-80 h-52 mx-3 rounded-md border-gray-200 border p-7 pt-10 hover:shadow-2xl duration-500 hover:duration-500"
+                >
+                  <div class="img">
+                    <img src="src/svg-3.svg" alt="svg-3" />
+                  </div>
+                  <div class="heading mt-4 mb-4">
+                    <h4 class="text-xl">human</h4>
+                  </div>
+                  <div class="body">
+                    <p class="text-gray-500">
+                      Created by a real human free hand on a digital tablet.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="slide-6">
+          <div class="w-screen h-auto">
+            <div class="p-32 flex-col justify-center items-center">
+              <h1 class="text-center text-[55px]">membership</h1>
+              <div class="mt-16 text-xl text-gray-600">
+                <div class="m-4">
+                  <p class="w-8/12 m-auto text-center">
+                    I have created a membership plan for people who love my
+                    works and wish to receive new artwork regularly - and
+                    support me along the way, too!
+                  </p>
+                </div>
+                <div class="m-4">
+                  <p class="w-8/12 m-auto text-center p-8">
+                    Only 300 people at one time can become members and
+                    contribute to creating new illustrations and developing the
+                    project in the future.
+                  </p>
+                </div>
+              </div>
+              <div class="flex justify-center">
+                <ul class="w-2/3 flex justify-center h-[600px]">
+                  <li
+                    class="w-[45%] m-2 bg-blue-50 rounded-md border border-gray-200 flex-col justify-center p-9"
+                  >
+                    <div
+                      class="plans-month flex justify-center items-center mt-2"
+                    >
+                      <h2 class="text-xl">Monthly</h2>
+                      <img
+                        src="src/question-mark.png"
+                        alt="fac"
+                        class="invert-[1] brightness-[.4] bg-gray-400 rounded-full w-4 h-4 ml-2"
+                      />
+                    </div>
+                    <div class="price text-8xl font-thin m-auto w-2/3 mt-6">
+                      <span
+                        class="text-3xl text-gray-500 align-top relative left-12 top-4"
+                        >$</span
+                      >
+                      <span class="align-top relative left-10">19</span>
+                    </div>
+                    <div class="flex justify-center mt-7">
+                      <h3 class="text-gray-400 text-sm">PER MONTH</h3>
+                    </div>
+                    <div class="mt-16">
+                      <ul class="text-center">
+                        <li>10 credits per month</li>
+                        <li>New content regularly</li>
+                        <li>No link required</li>
+                        <li>PNG format files</li>
+                        <li>SVG format files</li>
+                        <li>Premium support</li>
+                      </ul>
+                    </div>
+                    <div class="mt-12">
+                      <button
+                        class="btn pt-3 pb-3 w-full rounded-md bg-black text-white relative hover:bottom-1 hover:shadow-2xl hover:duration-1000 duration-1000"
+                      >
+                        Become a Member
+                      </button>
+                    </div>
+                  </li>
+                  <li
+                    class="w-[45%] m-2 bg-blue-50 rounded-md border border-gray-200 flex-col justify-center p-9"
+                  >
+                    <div
+                      class="plans-month flex justify-center items-center mt-2"
+                    >
+                      <h2 class="text-xl">Yearly</h2>
+                      <img
+                        src="src/question-mark.png"
+                        alt="fac"
+                        class="invert-[1] brightness-[.4] bg-gray-400 rounded-full w-4 h-4 ml-2"
+                      />
+                    </div>
+                    <div class="price text-8xl font-thin mt-6 m-auto w-2/3 flex">
+                      <span
+                        class="text-3xl text-gray-500 align-top relative top-3"
+                        >$</span
+                      >
+                      <span class="align-top relative left-5">199</span>
+                    </div>
+                    <div class="flex justify-center mt-7">
+                      <h3 class="text-gray-400 text-sm">PER YEAR</h3>
+                    </div>
+                    <div class="mt-10">
+                      <ul class="text-center">
+                        <li class="text-blue-500">Save up to $29</li>
+                        <li>10 credits per month</li>
+                        <li>New content regularly</li>
+                        <li>No link required</li>
+                        <li>PNG format files</li>
+                        <li>SVG format files</li>
+                        <li>Premium support</li>
+                      </ul>
+                    </div>
+                    <div class="mt-12">
+                      <button
+                        class="btn pt-3 pb-3 w-full rounded-md bg-blue-500 duration-1000 text-white relative hover:bottom-1 hover:shadow-2xl hover:duration-1000"
+                      >
+                        Become a Member
+                      </button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="w-2/3 m-auto p-8 text-[1.3rem] text-center text-gray-600"
+              >
+                By the way, did you know there are just 170 of 300 membership
+                seats left right now? And my friend Parth Took most of them.
+              </div>
+              <div class="w-2/3 m-auto mt-20 text-center">
+                <h1 class="text-5xl">appreciated and mentioned</h1>
+                <p class="text-xl mt-7 leading-relaxed text-gray-600">
+                  When the project was launched, I received lots of positive
+                  feedback on my illustrations and the ethos behind them. All
+                  kinds of websites and web personalities have shared this
+                  project and the idea it's built on - and that makes me happy.
+                </p>
+                <img
+                  src="src/rating.svg.png"
+                  alt="rating"
+                  class="m-auto mt-10"
+                />
+                <div class="">
+                  <ul class="grid grid-cols-6" id="partners">
+                  </ul>
+                </div>
+                <div class="w-2/3 m-auto mt-6">
+                  <div
+                    class="w-64 bg-black h-14 m-auto rounded-lg flex text-white p-2 hover:invert-[.2] hover:duration-1000 duration-500"
+                  >
+                    <div class="flex justify-center">
+                      <img
+                        src="src/icons8-medal-53.png"
+                        alt="medal"
+                        class="h-7 m-auto"
+                      />
+                    </div>
+                    <div>
+                      <div class="pl-2 font-bold" id="award_btn">
+                        <h4 class="text-[10px] text-left pl-1">Product Hunt</h4>
+                        <h2>
+                          #<span class="text-lg">1</span> Product of the Week
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide-7">
+          <div class="w-screen h-auto">
+            <div class="p-32 flex-col justify-center items-center">
+              <div class="pl-60 pr-60 text-center">
+                <h1 class="text-6xl">art shaped connections</h1>
+                <p class="text-2xl mt-6">
+                  The world’s best marketers, designers and business owners love
+                  absurd.design… So I believe it’ll strike a chord with you as
+                  well.
+                </p>
+              </div>
+              <div class="cover flex mt-10">
+                <button
+                  class="left relative -top-24 left-16"
+                  id="left_btn"
+                  disabled
+                  onclick="moveLeft()"
+                >
+                  <img src="src/icons8-less-than-50.png" alt="less than" />
+                </button>
+                <div class="w-[1075px] m-auto">
+                  <div
+                    class="w-full overflow-x-hidden overflow-y-hidden scroll-smooth m-auto flex h-auto flex-nowrap p-4"
+                    id="box"
+                  >
+                    
+                  </div>
+                </div>
+                <button
+                  class="right relative -top-24 -left-16"
+                  id="right_btn"
+                  onclick="moveRight()"
+                >
+                  <img
+                    src="src/icons8-greater-than-50.png"
+                    alt="greater than"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide-8">
+          <div class="w-screen h-auto">
+            <div class="p-32 flex-col justify-center items-center">
+              <div class="ml-64 mr-64 p-2 flex-col justify-center">
+                <h1 class="text-center text-6xl mb-7">
+                  subscribe to newsletter
+                </h1>
+                <p class="text-center text-2xl text-gray-600 font-normal">
+                  Subscribe for new updates and illustrations. Don't miss the
+                  new absurd illustrations!
+                </p>
+                <div
+                  class="flex justify-center w-3/5 mt-24 m-auto items-center"
+                >
+                  <input
+                    type="email"
+                    placeholder="Enter address"
+                    class="p-4 pl-6 rounded-[4px] pr-6 w-2/3 mr-2 h-full border"
+                  />
+                  <button
+                    class="btn p-4 pl-6 pr-6 tracking-tight rounded-[4px] relative hover:shadow-2xl duration-1000 bg-black text-white font-medium"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+                <div
+                  class="flex justify-center w-3/5 mt-12 m-auto items-center"
+                >
+                  <input
+                    type="checkbox"
+                    name="1"
+                    id="1"
+                    class="m-4 align-top ml-3 mt-0"
+                  />
+                  <label for="1" class="text-sm text-gray-700"
+                    >I agree to receive your newsletters and accept the data
+                    privacy statement.
+                    <span
+                      data-required="*"
+                      class="text-[#ff4949] text-[0.7em] align-top"
+                      >*</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slide-9">
+          <div class="w-screen h-screen">
+            <div class="p-32 flex justify-center items-center h-screen">
+              <div
+                class="m-auto ml-40 mr-40 text-center flex-col justify-center"
+              >
+                <h1 class="text-6xl">any absurd suggestions?</h1>
+                <ul class="grid grid-cols-3 mt-16">
+                  <li>
+                    <h6 class="text-sm text-gray-400">HQ</h6>
+                    <p class="mt-4">Barcelona, Spain.</p>
+                  </li>
+                  <li>
+                    <div>
+                      <h6 class="text-sm text-gray-400">EMAIL</h6>
+                      <p class="mt-4">xyz@absurd.design</p>
+                    </div>
+                    <div>
+                      <h6 class="text-sm text-gray-400 mt-5 mb-5">
+                        DON'T FOLLOW ME
+                      </h6>
+                      <ul class="grid grid-cols-5 pl-14 pr-14 items-center">
+                        <li class="cursor-pointer">
+                          <img src="src/be.svg" alt="Be" class="w-5 m-auto hover:w-6 hover:duration-200 duration-200" />
+                        </li>
+                        <li>
+                          <img
+                            src="src/ball.svg"
+                            alt="Ball"
+                            class="w-5 m-auto hover:w-6 hover:duration-200 duration-200"
+                          />
+                        </li>
+                        <li>
+                          <img src="src/x.svg" alt="X" class="w-5 m-auto hover:w-6 hover:duration-200 duration-200" />
+                        </li>
+                        <li>
+                          <img
+                            src="src/instagram.svg"
+                            alt="Instagram"
+                            class="w-5 m-auto hover:w-6 hover:duration-200 duration-200"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="src/facebook.svg"
+                            alt="Facebook"
+                            class="w-5 m-auto hover:w-6 hover:duration-200 duration-200"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <h6 class="text-sm text-gray-400">INFO</h6>
+                    <p class="mt-4">About, License, Terms and Privacy.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <h2 class="text-center mb-2">
+          Copyright © 2024 krish.design.All rights reserved.
+        </h2>
+      </footer>
+      <div class="side-navigation"></div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
